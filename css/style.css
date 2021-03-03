@@ -1,0 +1,104 @@
+.container section div .tm-bg-color-primary{
+    background-color: #76cdd8;
+}
+
+.tm-text-color-primary{
+    color:  rgb(118, 205, 216);
+}
+
+.container section .col-sm-12.col-md-12.col-lg-6.col-xl-6:last-of-type:hover{
+    color: #76cdd8;
+}
+
+
+.container section div .img-fluid{
+    transition: transform .2s;
+    margin-bottom: 2rem;
+}
+
+.container section div .img-fluid:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+
+.container section  div .btn.btn-primary.float-lg-right.tm-md-align-center:hover,
+.container section  div .btn.btn-primary:hover{
+    background-color: rgb(118, 205, 216);
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(118, 205, 216);
+    border: none;
+}
+
+.btn, 
+.tm-bg-color-primary, 
+.tm-bg-color-secondary {
+    background-color: #119898;
+    border: none;
+}
+.container section .col-lg-12.pl-2.pl-sm-3.pl-md-5.pr-2.pr-sm-3.pr-md-5{
+    margin-top: -30px;
+    margin-bottom: -30px;
+    z-index: 1;
+}
+
+.tm-pricing-table:hover{
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+
+}
+
+.tm-pricing-table:hover .tm-pricing-discount{
+    display: block;
+}
+
+.tm-pricing-discount__star{
+    color: red;
+}
+
+.tm-pricing-discount__text{
+    color: rgb(118, 205, 216);
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+#contact_message:focus{
+    border-color: #24d4d4; 
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.container section div .btn.btn-secondary:hover{
+    background-color: #24d4d4;
+}
+
+div.col-sm-12.col-md-12.col-lg-6.col-xl-6:hover::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 75px 75px 0;
+    border-color: transparent rgb(118, 205, 216) transparent;
+}
+
+.tm-pricing-table{
+    border: #24d4d4 1px solid;
+}
+
+.tm-col-md-reverse{
+    flex-direction: row-reverse;
+}
+
+.tm-form-header {
+    background-color: #21d5d4;
+}
+
+section.row.tm-section.tm-mb-30.tm-card,
+section.row.tm-section.tm-mb-30{
+    margin-bottom: 3rem;
+}
